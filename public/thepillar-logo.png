@@ -1,0 +1,12 @@
+function Logo() {
+  return (
+    <img
+      src={`${process.env.PUBLIC_URL}/images/thepillar-logo.png`}
+      alt="The Pillar Logo"
+      width="200"
+      height="auto"
+    />
+  );
+}
+
+export default Logo;
